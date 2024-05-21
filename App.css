@@ -1,0 +1,47 @@
+
+.App {
+  text-align: center;
+  
+  display: flex;
+  min-height: 100vh; /*adjust as needed*/
+  align-items: center;
+  justify-content: center;
+  background-color: linear-gradient(79deg, #005339, #ffc732 48%, #FFFF) ;
+  background-image: url('./Images/liberty_square.jpeg');
+}
+
+.auth-form-container, .login-form, .register-form{
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  margin: 0.5rem;
+}
+
+label {
+  text-align: left;
+  border-radius: 10px;
+}
+
+input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+/* adjust to whatever styling you want */
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #005339; 
+}
+
+.link-btn{
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
